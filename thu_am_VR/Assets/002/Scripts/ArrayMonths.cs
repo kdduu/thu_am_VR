@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-using System;
 using System.Globalization;
+using System;
+using UnityEngine;
 
 public class ArrayMonths : MonoBehaviour
 {
@@ -10,11 +10,11 @@ public class ArrayMonths : MonoBehaviour
     void Start()
     {
         string[] months = new string[12];
-
+        
         for(int month = 1; month <=12; month++)
         {
             DateTime firstDay = new DateTime(DateTime.Now.Year, month, 1);
-            string name = firstDay.ToString("MMMM", CultureInfo.CreateSpecificCulture("ko-KR"));
+            string name = firstDay.ToString("MMM", CultureInfo.CreateSpecificCulture("Ko-KR"));
             months[month - 1] = name;
         }
 
