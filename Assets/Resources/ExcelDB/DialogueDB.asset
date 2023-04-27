@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 248d0056dfec2bd4da6eaa300d07bd06, type: 3}
+  m_Name: DialogueDB
+  m_EditorClassIdentifier: 
+  sheets:
+  - name: Sheet1
+    list:
+    - index: 0
+      speakerUIindex: 0
+      name: "\uC774\uB984_01"
+      dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8\uD14C\uC2A4\uD2B801"
+      characterPath: None
+      tweenType: 0
+      nextindex: 1
+    - index: 1
+      speakerUIindex: 0
+      name: "\uC774\uB984_02"
+      dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8\uD14C\uC2A4\uD2B802"
+      characterPath: None
+      tweenType: 0
+      nextindex: 2
+    - index: 2
+      speakerUIindex: 0
+      name: "\uC774\uB984_03"
+      dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8\uD14C\uC2A4\uD2B803"
+      characterPath: None
+      tweenType: 0
+      nextindex: 3
+    - index: 3
+      speakerUIindex: 0
+      name: "\uC774\uB984_04"
+      dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8\uD14C\uC2A4\uD2B804"
+      characterPath: None
+      tweenType: 0
+      nextindex: 4
+    - index: 4
+      speakerUIindex: 0
+      name: "\uC774\uB984_05"
+      dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8\uD14C\uC2A4\uD2B805"
+      characterPath: None
+      tweenType: 0
+      nextindex: 5
+    - index: 5
+      speakerUIindex: 0
+      name: "\uC774\uB984_06"
+      dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8\uD14C\uC2A4\uD2B806"
+      characterPath: None
+      tweenType: 0
+      nextindex: 6
+    - index: 6
+      speakerUIindex: 0
+      name: "\uC774\uB984_07"
+      dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8\uD14C\uC2A4\uD2B807"
+      characterPath: None
+      tweenType: 0
+      nextindex: 7
+    - index: 7
+      speakerUIindex: 0
+      name: "\uC774\uB984_08"
+      dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8\uD14C\uC2A4\uD2B808"
+      characterPath: None
+      tweenType: 0
+      nextindex: 8
+    - index: 8
+      speakerUIindex: 0
+      name: "\uC774\uB984_09"
+      dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8\uD14C\uC2A4\uD2B809"
+      characterPath: None
+      tweenType: 0
+      nextindex: 9
+    - index: 9
+      speakerUIindex: 0
+      name: "\uC774\uB984_10"
+      dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8\uD14C\uC2A4\uD2B810"
+      characterPath: None
+      tweenType: 0
+      nextindex: 10
+    - index: 10
+      speakerUIindex: 0
+      name: "\uC774\uB984_11"
+      dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8\uD14C\uC2A4\uD2B811"
+      characterPath: None
+      tweenType: 0
+      nextindex: 11
+    - index: 11
+      speakerUIindex: 0
+      name: "\uC774\uB984_12"
+      dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8\uD14C\uC2A4\uD2B812"
+      characterPath: None
+      tweenType: 0
+      nextindex: 12

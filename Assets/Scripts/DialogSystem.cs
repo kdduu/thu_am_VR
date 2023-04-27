@@ -20,14 +20,29 @@ public class DialogSystem : MonoBehaviour
     public float typingSpeed = 0.1f;
     public bool isTypingEffect = false;
 
-    void Start()
+    public Entity_Dialogue entity_Dialogue;
+    private void Awake()
     {
-        
-    }
+        SetAllClose();
+        if(dialogsDB)
+        {
+            Array.Clear(dialogs, 0, dialogs.Length);
+            Array.Resize(ref dialogs, entity_Dialogue.sheets[0].list.Count);
 
-    void Update()
-    {
-        
+            int ArrayCursor = 0;
+            foreach(Entity_Dialogue.Param param in entity_Dialogue.sheets[0].list)
+            {
+                dialogs[ArrayCursor].index = param.index;
+                dialogs[ArrayCursor].speakerUIindex = param.speakerUIindex;
+                dialogs[ArrayCursor].name = param.name;
+                dialogs[ArrayCursor].dialogue = param.dialogue;
+                dialogs[ArrayCursor].characterPath = param.characterPath;
+                dialogs[ArrayCursor].tweenType = param.tweenType;
+                dialogs[ArrayCursor].nextindex = param.nextindex;
+
+                ArrayCursor += 1;
+            }
+        }
     }
 
     private void SetActiveObjects (SpeakerUI speaker,bool visible)
@@ -125,11 +140,6 @@ public class DialogSystem : MonoBehaviour
         }
 
         return false;
-    }
-
-    private void Awake()
-    {
-        SetAllClose();
     }
 
     [System.Serializable]

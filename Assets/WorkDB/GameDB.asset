@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bcad4d85426fdc449f7f8f8749d4bd0, type: 3}
+  m_Name: GameDB
+  m_EditorClassIdentifier: 
+  sheets:
+  - name: Sheet1
+    list:
+    - index: 1
+      objectid: obj_01
+      text: "\uD14D\uC2A4\uD2B81"
+    - index: 2
+      objectid: obj_02
+      text: "\uD14D\uC2A4\uD2B82"
+    - index: 3
+      objectid: obj_03
+      text: "\uD14D\uC2A4\uD2B83"
+    - index: 4
+      objectid: obj_04
+      text: "\uD14D\uC2A4\uD2B84"
+    - index: 5
+      objectid: obj_05
+      text: "\uD14D\uC2A4\uD2B85"
+    - index: 6
+      objectid: obj_06
+      text: "\uD14D\uC2A4\uD2B86"
+    - index: 7
+      objectid: obj_07
+      text: "\uD14D\uC2A4\uD2B87"
+    - index: 8
+      objectid: obj_08
+      text: "\uD14D\uC2A4\uD2B88"
+    - index: 9
+      objectid: obj_09
+      text: "\uD14D\uC2A4\uD2B89"
+    - index: 10
+      objectid: obj_10
+      text: "\uD14D\uC2A4\uD2B810"
+    - index: 11
+      objectid: obj_11
+      text: "\uD14D\uC2A4\uD2B811"
+    - index: 12
+      objectid: obj_12
+      text: "\uD14D\uC2A4\uD2B812"
