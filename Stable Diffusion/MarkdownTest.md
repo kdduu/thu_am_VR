@@ -37,7 +37,7 @@
 Click [My Git hub](https://github.com/kdduu/thu_am_VR.git)
 
 <!-- Image -->
-![image](https://github.com/kdduu/thu_am_VR/blob/main/Stable%20Diffusion/%EC%84%A0%ED%99%94.png?raw=true)
+![image](https://github.com/kdduu/thu_am_VR/blob/main/Stable%20Diffusion/00094-285671926.png?raw=true)
 
 <!-- Table -->
 |Header|Description|other|
