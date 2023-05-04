@@ -19,3 +19,14 @@ Prompt:
 Negative prompt: 
 > 
 
+---
+
+# Suffle (ControlNet 1.1)
+<!-- Image -->
+![image]()
+
+# Pix2Pix (ControlNet 1.1)
+<!-- Image -->
+![image]()
+
+> blue hair
